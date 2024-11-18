@@ -1,0 +1,87 @@
+@media screen and (max-width; 1440px) {}
+
+/* старые мониторы (маленькие) */
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 970px;
+        background-color: black;
+    }
+}
+
+/* Планшеты  */
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 767px;
+        background-color: blue;
+    }
+
+    .card {
+        flex: 0 1 100%;
+    }
+}
+
+
+/* Мобильные тел -mabilel */
+@media screen and (max-width:767px) {
+    .container {
+        max-width: none;
+        background-color: cadetblue;
+    }
+}
+
+/* Мобильные тел -mabilem */
+@media screen and (max-width:500px) {}
+
+
+/* Мобильные тел -mabiles */
+@media screen and (max-width:430px) {}
+
+
+@media screen and (min-width:1921px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+/* fkfkkfkfkkfkfkfkfkfkkfkfkfkfkfkfkfkfkfk */
+
+@media screen and (max-width:1280px) {
+    .container_2 {
+        max-width: 970px;
+        background-color: black;
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .container_2 {
+        max-width: 767px;
+        background-color: blue;
+    }
+
+    .cards {
+        flex: 0 1 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container_2 {
+        max-width: none;
+        background-color: cadetblue;
+    }
+}
+
+/* Мобильные тел -mabilem */
+@media screen and (max-width:500px) {}
+
+
+/* Мобильные тел -mabiles */
+@media screen and (max-width:430px) {}
+
+
+@media screen and (min-width:1921px) {
+    .container_2zz {
+        max-width: 1440px;
+    }
+}
